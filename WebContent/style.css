@@ -1,0 +1,322 @@
+/* Overwrites the browser stylesheet */
+{
+	padding:0%;
+	margin 0%;
+}
+/* Style the headings */
+h1 {
+	font-family:Agency FB;
+	font-size:240%;
+	font:bold;
+	margin:0px auto;
+}
+
+h2 {
+	margin:0px;
+	font-family:Agency FB;
+	font-size:145%;
+	color:white;
+}
+h3 {
+	margin:0;
+	font:4em Times serif;
+	color:#6699FF;
+}
+h4 {
+	margin:0px auto;
+	font-family:Agency FB;
+	font-size:230%;
+	color:black;
+}
+h5 {
+	font-family:Agency FB;
+	font-size:280%;
+	font:bold;
+	margin:0px auto;
+}
+h6 {
+	font-family:Agency FB;
+	font-size:110%;
+	color:#AACDD7;
+	padding:5px 0px 0px 30px;
+}
+/* Style the paragraphs */
+p1 {
+	margin:0px;
+	font-family:Arial;
+	font-size:105%;
+	color:red;
+}
+p2 {
+	font-family:Agency FB;
+	font-size:130%;
+	color:#505A5D;
+}
+p3 {
+	font-family:Agency FB;
+	font-size:110%;
+	color:#CC6600;
+	padding:5% 0px 0px 35%;
+}
+/* Defines the space between elements,changes font family,size and color of heading 3*/
+#random {
+	margin:0px auto;
+	font-family:Agency FB;
+	font-size:230%;
+	color:black;
+}
+
+
+/* START of styling of shared components (i.e. the components that are going to be used across at least 2 webpages) */
+/* START of styling navigation and its components */
+/* Creates a navigation container with a white background that will go across all the page */ 
+#navigationContainer {
+	background:url(images/navi.png);
+	width:100%;
+	position:relative;
+	white-space:nowrap;
+	word-spacing:0;
+}
+/* Positions the navigation menu and sets the font and size of text */ 
+#navigation {
+	width:1200px;
+	height:65px;
+	position:relative;
+	font-family:Arial;
+	margin:2px auto;
+	font-size: 0.97em;
+}
+/* Removes bullets from unordered list */
+#navigation ul {
+	list-style-type: none;
+}
+/* Takes each list item from the main list item and places them horizontal instead of vertical */
+#navigation ul li {
+	float:left;
+	list-style: none;
+}
+/* Sets a border and size for the navigation and sets the text color,center and decoration to none in order to not show underlined text */
+#navigation ul li a {
+	border-right:2px solid #e9e9e9;
+	padding:5px;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	color:white;
+	text-decoration: none;
+}
+/* When hovered,sets the background colour of main navigation boxes to blue and text colour to white */
+#navigation ul li a:hover {
+	background:#0099CC;
+	color: white;
+}
+/* Hides the drop down menu unordered list from being visible */
+#navigation ul li ul {
+	display: none;
+}
+/* Shows the dropdown menu when hovered over */
+#navigation ul li:hover ul {
+	display:block;
+	position:absolute;
+}
+#navigation ul li ul li {
+	float:left;
+	position:relative;
+}
+/* Sets the background menu to blue,text colour to white,styles the border and assigns the width of the boxes */ #navigation ul li:hover ul li a {
+	background:#12aeef;
+	color:white;
+	position:relative;
+	margin:0px auto;
+	border-bottom:1px solid white;
+	border-right:1px solid white;
+	width: 119px;
+}
+/* When hovered over the drop down menu,sets the background colour of dropdown menu to ligher blue */
+#navigation ul li:hover ul li a:hover {
+	background: #6dc7ec;
+}
+/* Sets the top border specificaly for one of the drop down boxes */
+.bordertop {
+	border-top: 1px solid white;
+}
+/* Sets the left border specificaly for one of the main navigation tabs */
+.borderleft {
+	border-left: 2px solid #e9e9e9;
+}
+/* END of styling navigation and its components */
+
+/* Styles the space that will contain a form and adds a background image*/
+#formContainer {
+	background:url(images/formContainer.png);
+	margin:5px auto 0 auto;
+	width:542px;
+	height:421px;
+	border-top-left-radius:40px;
+	border-top-right-radius:43px;
+	border-bottom-right-radius:69px;
+	border-bottom-left-radius:78px;
+}
+/* Styles the position of the elements i.e. the input forms and buttons*/
+.elements {
+	width:222px;
+	margin:0 auto;
+	padding: 10px 0;
+}
+/* END of styling of shared components */
+
+
+/* START of styling of the homepage */
+/* START of styling the middleBody and its components */
+#middleBody	 {
+	background:url(images/bg2.jpg);
+	width:100%;
+	height: 390px;
+}
+
+/* Styles the position of the first information within middle body */
+.middleBodyInfo {
+	width:250px;
+	height:89%;
+	margin:auto;
+	position:relative;
+	right:26%;
+	bottom: 15%;
+}
+
+/* Styles the position of the second information within middle body*/
+.middleBodyInfo2 {
+	width:30%;
+	height:80%;
+	margin:auto;
+	position:relative;
+	left:21%;
+	bottom: 90%;
+}
+
+/* END of styling middleBody and its components */
+/* END of styling of the homepage */
+
+/* START of styling of the registration page */
+/* Styles the user image position and adds an image */
+.avatarImage {
+	background:url(images/avatar.jpg) no-repeat center;
+	height:66px;
+	margin-bottom: 14px;
+}
+/* Styles the background,position and content of the user login input form */
+.userLogin {
+	background:url(images/usernameInputField.png);
+	width:230px;
+	height:35px;
+	text-align: center;
+}
+/* Styles the background,position and content of the password input form */
+.password {
+	background:url(images/passwordInputField.png);
+	width:230px;
+	height:35px;
+	text-align: center;
+}
+/* Styles the background,position and content of the email input form */
+.email {
+	background:url(images/emailInputField.png);
+	width:230px;
+	height:35px;
+	text-align: center;
+}
+/* Styles the background,position and content of the firstname input form */
+.firstname {
+	background:url(images/fnameInputField.gif) no-repeat;
+	width:230px;
+	height:35px;
+	text-align: center;
+}
+/* Styles the background,position and content of the surname input form */
+.surname {
+	background:url(images/surnameInputField.png) no-repeat;
+	width:230px;
+	height:35px;
+	text-align: center;
+}
+/* Styles the background,position and content of the button*/
+.button {
+	margin:25px auto 0 auto;
+	float:center;
+	background:#C0C0C0;
+	width:120px;
+	height:24px;
+	border-radius:6px;
+	border-bottom:3px solid #d0d0d0;
+	cursor:pointer;
+	color: #ffffff;
+}
+/* Styles the bottom reminder content */	
+#bottomReminder {
+}
+/* Styles the singup content */
+.signup {
+	text-align:center;
+	font-size:25px;
+	color:#ED4545;
+	margin: 5px;
+}
+/* Styles the signup anchor content */
+.signup a {
+	font-size:25px;
+	color:#9BAA1D;
+		margin:5px;
+}
+/* END of styling of the registration page */
+
+/*START of styling of the insert item page*/
+/* Styles the contents of table heading cells of result table */
+#resultTable th {
+	font-size:13px;
+	font-weight:bold;
+	padding:9px;
+	background:#b9c9fe;
+	border-top:5px solid #aabcfe;
+	border-bottom:1px solid white;
+	color: #039;
+}
+/* Styles the contents of the standard cells of result table */
+#resultTable td {
+	padding:8px;
+	background:#eaeeff;
+		border-bottom:1px solid gray;
+	color:#669;
+	border-top: 1px solid transparent;
+}
+/* Styles the contents of standard cells,so they show a visual effect when being hovered */
+#resultTable tr:hover td {
+	background:#d4ddfd;
+	color: #339;
+}
+.insertForm {
+	width:100%;
+	height:35px;
+	text-align: center;
+}
+#categories-dropdown{
+	width:100%;
+}
+
+/* END of styling of the insert item page*/
+
+/* START of styling for the All Auctions page */
+#allAuctionsTable {
+	width:100%;
+}
+
+#auctionInformationCell {
+	width:80%;
+	height:10%;
+	border-style:solid;
+}
+
+#formScroll {
+	height:320px;
+	overflow:auto;
+}
+/* END of styling for the All Auctions Page */ 

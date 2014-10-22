@@ -1,0 +1,44 @@
+<!-- A navigation container is created in order to store the navigation and differ the navigation background from the body background -->
+<div id="navigationContainer">
+	<!-- A navigation div is created in order to create a navigation including drop down menu and then style it in external css file -->
+	<div id="navigation">
+		<ul>
+			<!-- A borderleft class is given to this listed element in order to style a border for it in the external CSS file. -->
+			<li class="borderleft"><a href="index.jsp">Home</a></li>
+			<li><a href="Registration.jsp">Register</a></li>
+			<li><a href="Login.jsp">Login</a></li>
+			<!-- Open member actions listed element   -->
+			<li><a href="Member.jsp">Member Area</a>
+			<!-- Open drop down menu -->
+			<!-- <ul>
+				A bordertop class is given to this listed element in order to style a top border for in in the external CSS file.
+				<li class="bordertop"><a href="#">Empty Slot</a></li>
+				<li class="floatLeft"><a href="Member.jsp">Member Area</a></li>
+				<li><a href="ProcessItem?from=insertNewItem">Insert new item</a></li>
+				<li><a href="ProcessAuction?from=newAuction">Insert new auction</a></li>
+				<li><a href="ProcessAuction?from=myAuctions">My Auctions</a></li>
+				<li><a href="ProcessItem?from=myItems">My Items</a>
+			Close drop down menu
+			</ul> -->
+			<!-- Close member actions listed element -->
+			</li>
+			<!-- Open admin related listed element   -->
+			<li><a href="#">Bidding</a>
+			<!-- Open drop down menu -->
+			<ul>
+				 <!-- A bordertop class is given to this listed element in order to style a top border for in in the external CSS file. -->
+				<li class="bordertop"><a href="ProcessBids?from=seeAll">See all</a></li>
+				<li><a href="ProcessBids?from=myBids">My bids</a></li>
+			<!-- Close drop down menu -->
+			</ul>
+			<!-- Close admin related listed element -->
+			</li>
+			<li><a href="ProcessItem?from=insertNewItem">New Item</a></li>
+			<li><a href="ProcessAuction?from=newAuction">New Auction</a></li>
+			<li><a href="ProcessAuction?from=myAuctions">My Auctions</a></li>
+			<li><a href="ProcessItem?from=myItems">My Items</a></li>
+		</ul>
+	<!-- navigation closed -->
+	</div>
+<!-- navigationContainer closed -->
+</div>
